@@ -66,9 +66,13 @@ body {
     font-weight: 700;
     margin-bottom: 30px;
 }
+/* midnight section style */
+.midnight-section{
+    margin-top: 30px;
+}
 
 .midnight {
-    
+
     width: 100%t;
     max-width: 1220px;
     position: relative;
@@ -88,14 +92,23 @@ body {
     color: #FFF;
     font-family: Merriweather;
     font-size: 72px;
-   
     font-style: normal;
-  
-  
+    padding: 126px 552px 2px 126px;
 }
-.midnight-text{
+
+.dolor {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin-top: 10px;
+}
+
+.midnight-text {
     text-align: center;
     font-size: 34px;
     margin-bottom: 48px;
 }
-
