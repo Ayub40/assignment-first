@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    position: relative;
+    background-image: url('../resources/Banner\ Image.png');
+    background-size: cover;
+    border-radius: 16px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.451);
+    background-blend-mode: multiply;
+
+}
+
+.text {
+    text-align: center;
+    padding: 177px 344px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    /* 131.944% */
+
+}
+
+.party {
+    font-size: 72px;
+    margin-bottom: 48px;
+}
+
+.new-year {
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+
+.discount {
+    text-align: center;
+    margin-top: 60px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    line-height: normal;
+}
+
+.Holiday {
+    font-size: 24px;
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.CATEGORIE {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.midnight {
+    
+    width: 100%t;
+    max-width: 1220px;
+    position: relative;
+    background-image: url('../resources/Vectorrr.png');
+    background-size: cover;
+    border-radius: 16px;
+    margin: 10px auto;
+    background-color: rgba(0, 0, 0, 0.451);
+    background-blend-mode: multiply;
+}
+
+.party {
+    text-align: center;
+}
+
+.welcome {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+   
+    font-style: normal;
+  
+  
+}
+.midnight-text{
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 48px;
+}
+
