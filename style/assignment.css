@@ -171,18 +171,27 @@ span {
     margin-top: 50px;
     font-size: 20px;
     font-weight: 700;
-    /* border-radius: 5px;
-    background: #F00;
-    border: 0;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px; */
+}
+/* best offer section */
+.best-offer{
+    width: 1450px;
+    height: 482px;
+    margin: 80px 225px;
+    border-radius: 16px;
+    background:#FFF;
+    text-align: center;
+    padding-top: 150px;
 }
 
+
+
+
+
+
+/* Subscribe Newsletter section */
 .subscribe-section {
     width: 1450px;
-    height: 582px;
+    height: 482px;
     margin: 80px 225px;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -191,19 +200,16 @@ span {
 }
 
 .group {
-    width: 150px;
-    height: 150px;
+    width: 50px;
+    height: 50px;
 }
 
 .subscribe-heading {
     color: #070211;
-
     text-align: center;
     font-family: Merriweather;
-    font-size: 80px;
-
+    font-size: 100px;
     font-weight: 900;
-
     text-transform: capitalize;
 
 }
@@ -243,23 +249,12 @@ span {
 }
 
 .btn-subscribe {
-    /* display: flex; 
-    text-align:;*/
-    /* width: 210px;
-    height: 72px;
-    padding-right: 300px;
-    border-radius: 0px 50px 50px 0px;
-    background: #F00;
-    border: 0;
-     padding: 16px 32px; */
-
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
     align-items: center;
     gap: 0px;
     border-radius: 0px 50px 50px 0px;
-
     background: #F00;
     border: 0;
     color: #FFF;
@@ -268,6 +263,55 @@ span {
     font-weight: 700;
 }
 
-.input {
-    border-radius: 50px 0px 0px 50px;
+footer {
+    /* display: flex;  */
+    background: #070211;
+    padding: 200px 200px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    /* 166.667% */
+
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.logo {
+    width: 10px;
+    height: 10px;
+    gap: 20px;
+}
+
+.social-media a {
+    margin-right: 60px;
+
+}
+
+.all-rights {
+    margin-top: 200px;
 }
