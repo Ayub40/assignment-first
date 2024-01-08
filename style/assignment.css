@@ -10,7 +10,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 1320px;
+    max-width: 1450px;
     position: relative;
     background-image: url('../resources/Banner\ Image.png');
     background-size: cover;
@@ -66,22 +66,29 @@ body {
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 /* midnight section style */
-.midnight-section{
+
+
+.midnight-section {
     margin-top: 30px;
 }
 
 .midnight {
-
+    display: flex;
     width: 100%t;
-    max-width: 1220px;
+    max-width: 1450px;
     position: relative;
+    background-position: center;
     background-image: url('../resources/Vectorrr.png');
     background-size: cover;
     border-radius: 16px;
     margin: 10px auto;
-    background-color: rgba(0, 0, 0, 0.451);
+    background-color: rgba(0, 0, 0, 0.622);
     background-blend-mode: multiply;
+}
+.midnight-section{
+    display: flex;
 }
 
 .party {
@@ -89,11 +96,13 @@ body {
 }
 
 .welcome {
+    
+  
     color: #FFF;
     font-family: Merriweather;
-    font-size: 72px;
+    font-size: 64px;
     font-style: normal;
-    padding: 126px 552px 2px 126px;
+   
 }
 
 .dolor {
@@ -105,10 +114,19 @@ body {
     line-height: 30px;
     /* 166.667% */
     margin-top: 10px;
+    padding-right: 5px;
 }
 
 .midnight-text {
-    text-align: center;
+    justify-content: space-between;
+    text-align:left;
     font-size: 34px;
     margin-bottom: 48px;
+    display: block;
+    padding: 126px;
+   
 }
+.midnight-image{
+   padding: 80px 170px;
+}
+   
