@@ -297,10 +297,20 @@ span {
     text-align: center;
     font-family: Merriweather;
     font-size: 50px;
-    
+
     font-weight: 900;
     line-height: normal;
     margin-right: 10px;
+}
+
+.functional {
+    color: #070211;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .holiday-paragraph {
@@ -312,7 +322,7 @@ span {
     color: #070211;
     font-family: Merriweather;
     font-size: 50px;
-    
+
     font-weight: 900;
     line-height: normal;
 }
