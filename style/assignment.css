@@ -187,7 +187,22 @@ span {
     justify-content: space-between;
     align-items: center;
 }
+.best-offer-heading{
+    color: #070211;
+    text-align:justify;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.best-offer-image{
+    padding-bottom: 200px;
+}
 
+.offer-content{
+    padding: 10px;
+    padding-bottom: 200px;
+}
 
 
  
@@ -196,13 +211,14 @@ span {
 .offer-image {
     border-radius: 463px;
     border: 15px solid #F00;
+   
 }
 
-.offer-content,
+/* .offer-content,
 .offer-image,
 .offer-year {
     max-width: 500px;
-}
+} */
 
 /* holiday section */
 .holiday {
