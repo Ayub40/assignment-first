@@ -179,8 +179,8 @@ span {
     height: 482px;
     margin: 80px 225px;
     border-radius: 16px;
-    /* background: #FFF ; */
-    background: aquamarine;
+    background: #FFF;
+    /* background: aquamarine; */
     text-align: center;
     padding-top: 150px;
     display: flex;
@@ -188,17 +188,62 @@ span {
     align-items: center;
 }
 
+.offer-content-heading {
+    text-align: justify;
+    padding-left: 5px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 .best-offer-heading {
     color: #070211;
     text-align: justify;
     font-family: Merriweather;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 900;
     text-transform: capitalize;
 }
 
+.best-offer-paragraph {
+    text-align: justify;
+    padding-top: 20px;
+
+}
+
 .best-offer-image {
     padding-bottom: 200px;
+
+}
+
+.offer-year {
+    text-align: justify;
+    padding-bottom: 150px;
+    padding-right: 100px;
+
+}
+
+.offer-year-heading {
+    padding-top: 100px;
+    font-size: 35px;
+    color: #F00;
+    font-weight: 900;
+    font-family: Inter;
+
+}
+
+.offer-year-paragraph {
+    text-align: justify;
+}
+
+.offer-year img {
+    padding-top: 50px;
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
 }
 
 .offer-content {
@@ -211,7 +256,8 @@ span {
 
 
 .offer-image {
-    border-radius: 463px;
+    border-radius: 50%;
+    /* border-radius: 463px; */
     border: 15px solid #F00;
 
 }
