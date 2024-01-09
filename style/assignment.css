@@ -128,6 +128,12 @@
     padding: 80px 170px;
 }
 
+.join-now {
+    background: none;
+    color: #FFF;
+
+}
+
 /*  place section  style*/
 .location {
     width: 1450px;
@@ -239,6 +245,13 @@ span {
     text-align: justify;
 }
 
+
+
+.offer-content {
+    padding: 10px;
+    padding-bottom: 200px;
+}
+
 .offer-year img {
     padding-top: 50px;
     width: 140px;
@@ -246,23 +259,17 @@ span {
     flex-shrink: 0;
 }
 
-.offer-content {
-    padding: 10px;
-    padding-bottom: 200px;
-}
+.best-offer-image {
 
-
-
-
-
-.offer-image {
-    border-radius: 50%;
-    /* border-radius: 463px; */
-    border: 15px solid #F00;
+    border: 10px solid red;
+    Border-radius: 50%;
+    Padding: 20px;
 
 }
 
-.offer-content,
+
+
+*/ .offer-content,
 .offer-image,
 .offer-year {
     max-width: 500px;
